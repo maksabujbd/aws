@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1693300016338",
+    "Statement": [
+        {
+            "Sid": "Stmt1693299096868",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::ACCOUNT_ID:user/USER_NAME"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::BUCKET_NAME"
+        },
+        {
+            "Sid": "Stmt1693299158849",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::ACCOUNT_ID:user/USER_NAME"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+        }
+    ]
+}
