@@ -1,3 +1,6 @@
+####  Only one user can access only one bucket ####
+
+
 {
     "Version": "2012-10-17",
     "Id": "Policy1693300016338",
