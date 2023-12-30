@@ -1,2 +1,0 @@
---cert "D:\\Program Files\\OpenVPN\\easy-rsa\\pki\\issued\\client1.domain.tld.crt"
---key "D:\\Program Files\\OpenVPN\\easy-rsa\\pki\\private\\client1.domain.tld.key"

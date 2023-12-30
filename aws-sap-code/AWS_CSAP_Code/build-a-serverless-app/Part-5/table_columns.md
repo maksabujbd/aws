@@ -1,1 +1,0 @@
-productvisitkey string, productid string, productname string, category string, priceperunit string, customerid string, customername string, timeofvisit string
